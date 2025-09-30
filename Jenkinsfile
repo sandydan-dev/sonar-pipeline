@@ -1,5 +1,5 @@
 pipeline {
-  ageny any
+  agent any
 
   environment {
     PATH="/opt/maven/bin:$PATH"
@@ -31,6 +31,5 @@ pipeline {
 
 
   }
-
 
 }
