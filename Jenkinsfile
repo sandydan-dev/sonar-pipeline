@@ -24,7 +24,7 @@ pipeline {
          withSonarQubeEnv("sandy-sonar-server"){
             sh "${scannerHome}/bin/sonar-scanner"
          }
-         echo "sonar server end
+         echo "sonar server end"
        }
 
      }
